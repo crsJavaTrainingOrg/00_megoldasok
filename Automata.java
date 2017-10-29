@@ -66,7 +66,7 @@ public class Automata
         }
         else 
         {
-            System.out.println("Hiba! Bejövő összeg nem osztható 10-el");
+            System.out.println("Hiba! Bejövő összeg nem osztható 10-el!");
         }
     }
     
