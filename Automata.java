@@ -21,6 +21,9 @@ public class Automata
             System.out.println("Hiba! Bejövő összeg nem osztható 10-el");
         }
     }
+    
+    
+    
         
     
     

@@ -1,6 +1,6 @@
-public class EgyszerFuggvenyek
+public class EgyszeruFuggvenyek
 {
-    public static long faktorialis(int n){
+    public static int faktorialis(int n){
         
         int i = 1;
         
@@ -14,7 +14,10 @@ public class EgyszerFuggvenyek
         return faktorialis;
     }
 }
+    
+   
         
+  
         
         
     
