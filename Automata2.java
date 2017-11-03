@@ -33,7 +33,7 @@ public class Automata2
        int otvenesekSzama = tmp / 50;
        tmp = tmp - (50 * otvenesekSzama);
        int tizesekSzama = tmp / 10;
-       String eredmeny ="A felvett összeg cimletezve:";
+       String eredmeny ="A felvett összeg cimletezve: ";
        if (szazasokSzama >0)
        {
            eredmeny = eredmeny + "Százasok száma: " + szazasokSzama;
@@ -41,15 +41,15 @@ public class Automata2
        
        if (otvenesekSzama > 0 )
        {
-           eredmeny = eredmeny + "Ötvenesek száma: " + otvenesekSzama;
+           eredmeny = eredmeny + " Ötvenesek száma: " + otvenesekSzama;
        }
        
        if (tizesekSzama > 0 )
        {
-           eredmeny = eredmeny + "Tízesek száma: " + tizesekSzama;
+           eredmeny = eredmeny + " Tízesek száma: " + tizesekSzama;
         }
        
-        if (osszeg > 0 && osszeg <=this.benntlevoosszeg && osszeg % 10 == 0)
+        if (osszeg > 0 && osszeg <=benntlevoosszeg && osszeg % 10 == 0)
         {
             benntlevoosszeg = benntlevoosszeg - osszeg;
             System.out.println(eredmeny);

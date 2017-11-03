@@ -1,7 +1,8 @@
 public class ParosSzamok
 {
     
-    public static long parosSzamokOsszeadasa (int elso, int utolso){
+    public static long parosSzamokOsszeadasa (int elso, int utolso)
+    {
 
     int y = utolso;
     int i = elso;
@@ -20,7 +21,7 @@ public class ParosSzamok
     
     }
     return osszeg;
-}
+    }
 }
    
     

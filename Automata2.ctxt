@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Automata2
+comment1.params=
+comment1.target=Automata2()
+comment2.params=kezdoosszeg
+comment2.target=Automata2(int)
+comment3.params=
+comment3.target=int\ elerhetoosszeg()
+comment4.params=osszeg
+comment4.target=void\ megtoltes(int)
+comment5.params=osszeg
+comment5.target=java.lang.String\ felvetel(int)
+numComments=6
