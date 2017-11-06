@@ -13,20 +13,24 @@ public class kiAkarokMenni
         rob.turnLeft();
         rob.turnLeft();
         
-        while (true)
+        while (rob.frontIsClear() && rob.getStreet() > 1)
         {
-            if(rob.frontIsClear()==false || rob.getStreet()>1==false)break;
             rob.move();
         }
         
-        if(rob.getStreet()>1)
+        if (rob.getStreet() <= 1) 
+        {
+            //program finished, no need for further program execution
+            return;
+        } 
+        else
         {
             rob.turnRight();
+
         }
         
-        while(true)
+        while(rob.frontIsClear())
         {
-            if(rob.getAvenue()<6==false || rob.getStreet()>1==false)break;
             rob.move();
         }
         
