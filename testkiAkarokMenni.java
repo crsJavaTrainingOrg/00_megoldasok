@@ -5,7 +5,7 @@ public class testkiAkarokMenni
     public static void test()
     {
         City graz = new City();
-        RobotSE robert = new RobotSE(graz,4,5,Direction.SOUTH);
+        RobotSE robert = new RobotSE(graz,6,4,Direction.SOUTH);
         Wall wall1 = new Wall(graz,6,6,Direction.EAST);
         Wall wall2 = new Wall(graz,5,6,Direction.EAST);
         Wall wall3 = new Wall(graz,4,6,Direction.EAST);

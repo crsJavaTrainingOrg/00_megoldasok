@@ -1,6 +1,6 @@
 public class EgyszeruFuggvenyek
 {
-    public static int faktorialis(int n){
+    public static long faktorialis(int n){
         
         int i = 1;
         
@@ -12,6 +12,17 @@ public class EgyszeruFuggvenyek
             faktorialis = faktorialis * i;
         }
         return faktorialis;
+    }
+    
+    public static double e (int x)
+    {
+        /*double osszeg = 1;
+        
+        for(int i = 1; i <= 9; i++){
+            osszeg = osszeg + Math.pow(x,i)/faktorialis(i);
+        }
+        return osszeg;*/
+        return Math.exp(x);
     }
 }
     
